@@ -20,16 +20,26 @@
       .paragraph-1 {
         background-color: pink;
       }
+      ul {font-style:italic;color:blue; font-size:20px;background-color:lightblue;margin:50px;border-radius:20px;border:solid}
+      ol{list-style-type:upper-roman;color:red;font-size:20px;background-color:yellow;margin:50px;border-radius:20px;border:solid}
+      h1{color:blue}
+      h2{color:green}
+      p{color:navy; border:solid red;}
+      em{color:red}
+      strong{color:darkgreen}
+      main {background-color:antiquewhite}
+      table th,tr,td{border:solid 5px; padding: 10px}
+
     </style>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <h1 style="text-decoration: underline">I like cats!
+    <header style="background-color:greenyellow">
+      <h1 style="text-decoration: underline;">I like cats!
       </h1>
     </header>
     <main>
-      <p class="paragraph-1" style="color: blue;">
+      <p class="paragraph-1" style="color:blue">
         <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -60,6 +70,20 @@
         vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
         erat nam at lectus urna duis.
       </p>
+
+      <ol>
+        <li>Cats</li>
+        <li>Dogs</li>
+        <li>Fish</li>
+        <li>Turtles</li>
+      </ol>
+
+      <ul>
+        <li>Forest</li>
+        <li>Ocean</li>
+        <li>Desert</li>
+        <li>Island</li>
+      </ul>
     
       <table>
         <tr>
@@ -78,7 +102,8 @@
         </tr>
       </table>
     
-      <button style="background-color:blue; color:white; font-size: 60px; padding:50px; border-radius:30px">Buy Now!</button>
+    
+      <button style="background-color:blue; color:white; font-size: 30px; padding:50px; border-radius:30px;margin:30px">Buy Now!</button>
     </main>
   
     <nav>
@@ -87,7 +112,7 @@
       <a> GALLERY </a>
     </nav>
     
-    <footer>
+    <footer style="margin:20px; font-size:20px; background-color:yellow"> © Codex Academy
     </footer>
 
     <script src="./script.js"></script>
